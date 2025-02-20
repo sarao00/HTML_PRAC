@@ -1,0 +1,164 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(234, 223, 207);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 50px;
+    font-family: "Outfit";
+    font-weight: 500;
+    color: grey;
+    font-size: 12px;
+    line-height: 140%;
+     
+ }   
+
+
+ .recette{
+
+    width: 65%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 12px;
+ }
+
+img{
+   border-radius: 0.2cm;
+   width: 100%;
+   height: auto;
+   margin-bottom:  25px; 
+   
+
+}
+
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.head_texte{
+    margin-bottom:  10px;
+}
+
+  .preparation{
+
+    background-color: #fbdddd;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  .preparation  h2{
+    padding-block: 5px;
+    color: rgb(110, 53, 110);
+    margin-bottom: 5px;
+  }
+
+ .preparation ul, .ingredients ul, .instructions ol
+ {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+ }
+.preparation li::marker{
+    color: rgb(110, 53, 110);
+}
+.preparation ul li span, .ingredients ul li {
+
+    padding-left: 10px;
+    
+ }
+
+ .preparation ul li span, .instructions ol li span{
+    font-weight: bold;
+    color: rgb(96, 96, 96);
+
+  
+ }
+.ingredients{
+    padding-top: 25px;
+    padding-left: 10px;
+}
+ .ingredients li::marker, .instructions li::marker
+ {
+    color: #681e1e;
+}
+
+.ingredients h2, .instructions h2, .nutrition h2
+{
+
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #681e1e;
+}
+.ingredients hr, .instructions hr{
+    opacity: 0.4;
+    margin-block: 25px
+}
+.instructions ol {
+    padding-left: 15px;
+    padding-right: 10px;
+ 
+   
+ }
+ .instructions ol li{
+    padding-left: 15px;
+ 
+  
+   
+ }
+ .instructions ol li span{
+    padding-right: 5px;
+ 
+  
+   
+ }
+
+ .nutrition h3{
+ 
+    text-wrap: balance;
+    margin-bottom: 10px;
+    width: 100%;
+    font-weight: normal;
+ }
+
+
+
+ 
+ .nutrition p{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+ 
+ }
+ .nutrition p span:first-child{
+    padding-left: 10px;
+    width: 50%
+    
+ 
+ }
+
+
+ .nutrition p span:last-child{
+    
+    color: #681e1e;
+    font-weight: bold;
+ }
